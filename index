@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cremer Motorsport – KFZ Werkstatt</title>
+  <meta name="description" content="Cremer Motorsport – Ihre KFZ Werkstatt für Service, Reparaturen und Motorsport." />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      color: #222;
+    }
+    header {
+      background: #111;
+      color: #fff;
+      padding: 1.5rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+      letter-spacing: 1px;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
+      color: #ccc;
+    }
+    nav {
+      background: #c00000;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 0.9rem 1.2rem;
+      font-weight: bold;
+    }
+    nav a:hover {
+      background: #900000;
+    }
+    section {
+      padding: 3rem 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h2 {
+      color: #c00000;
+      margin-bottom: 1rem;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      border: 1px solid #ddd;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #111;
+    }
+    .contact {
+      background: #f5f5f5;
+      border-radius: 8px;
+    }
+    footer {
+      background: #111;
+      color: #ccc;
+      text-align: center;
+      padding: 1.5rem 1rem;
+      font-size: 0.9rem;
+    }
+    footer span {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Cremer Motorsport</h1>
+  <p>Ihre KFZ Werkstatt für Service, Reparatur & Motorsport</p>
+</header>
+
+<nav>
+  <a href="#leistungen">Leistungen</a>
+  <a href="#ueber-uns">Über uns</a>
+  <a href="#kontakt">Kontakt</a>
+</nav>
+
+<section id="leistungen">
+  <h2>Unsere Leistungen</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Inspektion & Wartung</h3>
+      <p>Fachgerechte Inspektionen nach Herstellervorgaben für alle Fahrzeugmarken.</p>
+    </div>
+    <div class="card">
+      <h3>Reparaturen</h3>
+      <p>Motor, Getriebe, Bremsen oder Fahrwerk – wir bringen Ihr Fahrzeug wieder auf die Straße.</p>
+    </div>
+    <div class="card">
+      <h3>Motorsport & Tuning</h3>
+      <p>Individuelle Motorsportlösungen, Leistungssteigerungen und Fahrzeugoptimierung.</p>
+    </div>
+    <div class="card">
+      <h3>HU / AU Service</h3>
+      <p>Vorbereitung und Abnahme der Haupt- und Abgasuntersuchung.</p>
+    </div>
+  </div>
+</section>
+
+<section id="ueber-uns">
+  <h2>Über Cremer Motorsport</h2>
+  <p>
+    Cremer Motorsport steht für Leidenschaft am Automobil, präzise Arbeit und persönliche Beratung.
+    Ob Alltagsfahrzeug oder Motorsportprojekt – bei uns ist Ihr Auto in besten Händen.
+  </p>
+</section>
+
+<section id="kontakt" class="contact">
+  <h2>Kontakt</h2>
+  <p><strong>Cremer Motorsport</strong></p>
+  <p>
+    Adresse: Musterstraße 1, 12345 Musterstadt<br />
+    Telefon: 0123 / 456789<br />
+    E-Mail: info@cremer-motorsport.de
+  </p>
+  <p>
+    Öffnungszeiten:<br />
+    Mo – Fr: 08:00 – 18:00 Uhr<br />
+    Sa: nach Vereinbarung
+  </p>
+</section>
+
+<footer>
+  <p>&copy; <span>2026</span> Cremer Motorsport · Alle Rechte vorbehalten</p>
+</footer>
+
+</body>
+</html>
